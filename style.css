@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    align-items: center;
+  }
+  .hidden {
+    display: none;
+  }
+  .star {
+    width: 45px;
+    height: 45px;
+  }
+  .container {
+    width: 90%;
+    margin: 11em auto;
+    font-size: 0.875rem;
+    padding: 2em;
+    color: hsl(216, 12%, 54%);
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+}
+  .container h1 {
+    padding: 0.5em 0;
+    color: white;
+  }
+  .container p {
+    margin-bottom: 6%;
+  }
+  .rating :not(:last-child) {
+    margin-right: 2%;
+  }
+  .rating {
+    margin-top: 0;
+    margin-bottom: 8%;
+  }
+  button {
+    border: none;
+    background-color: hsl(213, 19%, 20%);
+    font-family: "Overpass", sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .round {
+    border-radius: 50%;
+  }
+  .rating {
+    width: 100%;
+    align-items: center;
+    padding: 1em 0;
+  }
+  .num {
+    width: 40px;
+    height: 40px;
+    color: hsl(0, 0%, 100%);
+  }
+  .num:hover {
+    background-color: hsl(214, 8%, 50%);
+  }
+  .rating :not(:last-child) {
+    margin-right: 10px;
+  }
+  .num:focus {
+    background-color: hsl(25, 97%, 53%);
+  }
+  .sub {
+    height: 45px;
+    width: 100%;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+  }
+  .sub:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+  }
+  .change-color {
+    background-color: hsl(25, 97%, 53%);
+  }
+  .two {
+    text-align: center;
+  }
+  .two img {
+    padding: 1em;
+  }
+  .two h1 {
+    padding: 0.8em;
+    font-weight: 700;
+  }
+  .content {
+    color: hsl(25, 97%, 53%);
+    padding: 0.5em;
+    border-radius: 20px;
+  }
+  @media screen and (min-width:376px) {
+    .container
+    {
+        margin: 12em auto;
+       width: 90%;
+       max-width: 350px;
+    }
+    .num {
+        width: 45px;
+        height: 45px;
+        color: hsl(0, 0%, 100%);
+        font-size: 1rem;
+      }
+  }
